@@ -10,6 +10,7 @@ On Canvas, submit
 - The output of `pip3 freeze` (run inside the environment)
 - The output of `git log`
 
+print("Hello")
 ### Task 2: Generating sequences and argparse (10 Points)
 Write a python script `sequencer.py` which computes well-known mathematical sequences **iteratively, not recursively**, using Python lists. In terms of mathematics, you can use `math.sqrt` from the standard library, but do not import any other functions (e.g. `math.factorial` or anything from numpy etc). Implement a command-line interface using `argparse`. The `argparse` documentation is available [here](https://docs.python.org/3/library/argparse.html).
 
